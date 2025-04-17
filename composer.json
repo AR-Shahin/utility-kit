@@ -1,0 +1,38 @@
+{
+    "name": "arshahin/utility-kit",
+    "description": "A PHP utility helper package for general and Laravel-based projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Anisur Rahman Shahin",
+        "email": "mdshahinmije96@gmail.com"
+      }
+    ],
+    "require": {
+      "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "ARShahin\\UtilityKit\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "ARShahin\\UtilityKit\\Tests\\": "tests/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "ARShahin\\UtilityKit\\UtilityServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+      "phpunit/phpunit": "^10"
+    }
+  }
+  
