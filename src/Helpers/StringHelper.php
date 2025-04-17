@@ -13,4 +13,8 @@ class StringHelper
     {
         return substr($haystack, -strlen($needle)) === $needle;
     }
+
+    public static function FunctionName() : string {
+        return "Hello Shahin";
+    }
 }
